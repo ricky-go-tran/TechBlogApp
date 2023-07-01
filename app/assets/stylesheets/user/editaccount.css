@@ -1,0 +1,140 @@
+/*-------------------EDIT ACCOUNT-------------------------*/
+
+.edit-account-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #00FC85, #0CBECD);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.edit-account-wrapper > span {
+    width: 70%;
+    height: 100%;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.edit-account-wrapper > span > span {
+    width: 65%;
+}
+.edit-account-wrapper > span > span > a {
+    text-decoration: none;
+    color: #0cc0cc;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.edit-account-wrapper > span > h2 {
+    font-size: 40px;
+    background: linear-gradient(90deg, #00FC85, #0CBECD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.edit-account-wrapper > span >  form  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%
+}
+.edit-account-wrapper > span >  form  > * {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.edit-account-wrapper > span >form > .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-account-wrapper > span >  form  > .field > label {
+    font-size: 18px;
+
+}
+.edit-account-wrapper > span >  form  > .field > #user_email:focus{
+    outline: none;
+}
+.edit-account-wrapper > span >  form  > .field > #user_fullname:focus{
+    outline: none;
+}
+.edit-account-wrapper > span >  form  > .field > #user_password:focus {
+    outline: none;
+}
+.edit-account-wrapper > span >  form  > .field > #user_password_confirmation:focus{
+    outline: none;
+}
+
+.edit-account-wrapper > span >  form  > .field > #user_current_password:focus{
+    outline: none;
+}
+
+.edit-account-wrapper > span >  form  > .field > #user_email {
+    width: 100%;
+    height: 30px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.edit-account-wrapper > span >  form  > .field > #user_fullname {
+    width: 100%;
+    height: 30px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.edit-account-wrapper > span >  form  > .field >  #user_password {
+    width: 100%;
+    height: 30px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.edit-account-wrapper > span >  form  > .field >  #user_password_confirmation {
+    width: 100%;
+    height: 30px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.edit-account-wrapper > span >  form  > .field >  #user_current_password {
+    width: 100%;
+    height: 30px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.edit-account-wrapper > span >  form input[type=submit] {
+    width: 60%;
+    padding: 10px 40px;
+    background: #0cc0cc;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.edit-account-wrapper > span >  form input[type=submit]:hover {
+    background: #0B99A3;
+}
