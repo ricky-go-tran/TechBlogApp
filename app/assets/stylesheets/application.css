@@ -12,5 +12,6 @@
  *
  *= require global.css
  *= require_tree ./user
+ *= require_tree ./article
  *= require_self
  */
