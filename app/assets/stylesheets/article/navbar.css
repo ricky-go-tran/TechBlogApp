@@ -9,6 +9,7 @@
     background-color: #ffffff;
     position: fixed;
     top: 0;
+    overflow: hidden;
 }
 .navbar-wrapper > .left-navbar {
     display: flex;
@@ -19,11 +20,14 @@
 }
 .navbar-wrapper > .right-navbar {
     display: flex;
-    margin-right: 20px;
+
     flex: 30%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     transform: translateX(20%);
+}
+.navbar-wrapper > .right-navbar > * {
+    margin-left: 20px;
 }
 .navbar-wrapper > .left-navbar > .logo {
     font-size: 32px;
@@ -87,6 +91,23 @@
     border-radius: 10px;
 }
 .navbar-wrapper > .right-navbar > .signup:hover {
+    background:  linear-gradient(90deg, #00FC85, #0CBECD);
+    color: #ffffff;
+
+}
+.navbar-wrapper > .right-navbar > .username {
+    background:  linear-gradient(90deg, #00FC85, #0CBECD);
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.navbar-wrapper > .right-navbar > .logout {
+    color: black;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.navbar-wrapper > .right-navbar > .logout:hover {
     background:  linear-gradient(90deg, #00FC85, #0CBECD);
     color: #ffffff;
 
