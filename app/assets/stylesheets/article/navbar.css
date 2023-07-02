@@ -1,0 +1,96 @@
+.navbar-wrapper {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 20px -10px gray;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+}
+.navbar-wrapper > .left-navbar {
+    display: flex;
+    margin-left: 20px;
+    flex: 70%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbar-wrapper > .right-navbar {
+    display: flex;
+    margin-right: 20px;
+    flex: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(20%);
+}
+.navbar-wrapper > .left-navbar > .logo {
+    font-size: 32px;
+    margin: 0 10px;
+    background: linear-gradient(90deg, #00FC85, #0CBECD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    flex: 1;
+}
+.navbar-wrapper > .left-navbar > .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex:2;
+}
+.navbar-wrapper > .left-navbar > .menu > .item{
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+.navbar-wrapper > .left-navbar > .menu > .item.active {
+    background:  linear-gradient(90deg, #00FC85, #0CBECD);
+    color: #ffffff;
+}
+.navbar-wrapper > .left-navbar > .menu > .item:hover {
+    background:  linear-gradient(90deg, #00FC85, #0CBECD);
+    color: #ffffff;
+
+}
+.navbar-wrapper > .left-navbar > .search-bar {
+    flex: 2;
+    height: 30px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.navbar-wrapper > .left-navbar > .search-bar {
+    outline: none;
+}
+.navbar-wrapper > .right-navbar > .login {
+    color: black;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.navbar-wrapper > .right-navbar > .login:hover {
+    background:  linear-gradient(90deg, #00FC85, #0CBECD);
+    color: #ffffff;
+
+}
+.navbar-wrapper > .right-navbar > .signup {
+    color: black;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.navbar-wrapper > .right-navbar > .signup:hover {
+    background:  linear-gradient(90deg, #00FC85, #0CBECD);
+    color: #ffffff;
+
+}
+
+
+
