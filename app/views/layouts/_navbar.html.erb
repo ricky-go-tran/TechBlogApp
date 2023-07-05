@@ -1,0 +1,22 @@
+<div class="navbar-wrapper">
+    <div class="left-navbar">
+        <div class="logo">TechBlog</div>
+        <div class="menu">
+            <%= link_to "Home", articles_path, class: "item"%>
+            <%= link_to "Author", articles_path, class: "item"%>
+            <%= link_to "About", articles_path, class: "item"%>
+            <%= link_to "Support", articles_path, class: "item"%>
+
+        </div>
+        <input type="text" class="search-bar" placeholder="Search articles..."/>
+    </div>
+    <div class="right-navbar">
+        <% if user_signed_in?%>
+            <div class="username"><%= current_user.fullname %></div>
+            <%= link_to "Logout", destroy_user_session_path,     data: { turbo_method: :delete, turbo_confirm: "Are you sure want to signout?" } , class: "logout"%>
+        <% else%>
+            <%= link_to "Login", new_user_session_path, class: "login"%>
+            <%= link_to "Signup", new_user_registration_path, class: "signup"%>
+        <% end%>
+    </div>
+</div>
