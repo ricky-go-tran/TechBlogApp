@@ -1,0 +1,13 @@
+.wrapper
+    = render "layouts/navbar"
+    .content-author-wrapper
+        h2 Author
+        .list
+            - @authors.each do |author|
+                .author-item[data-controller="navigation" data-action="click->navigation#navigate" data-navigation-target="path" data-content="/authors/#{author.id}"]
+                    .left
+                        .author-name = author.fullname
+                        .number-article = "Article: " + @authors_article_num[author.id].to_s
+                    .right
+                        .join-time = author.created_at
+

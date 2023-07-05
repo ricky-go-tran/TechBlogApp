@@ -1,0 +1,8 @@
+.wrapper
+    = render "layouts/navbar"
+    .content-article-show-wrapper
+        .title-article
+            h2 = @article.title
+            .time-article = @article.updated_at
+        .author-article = "Author: " + User.find(@article.user_id).fullname
+        .content-article == @article.body
