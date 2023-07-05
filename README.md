@@ -19,9 +19,9 @@ Chúng tôi phát triển phần mềm dựa trên các thư viện, ngôn ngữ
  - [X] Đăng xuất
  - [x] Edit account
  - [x] Xem danh sách bài báo
- - [ ] Xem danh sách theo tác giả
- - [ ] Xem chi tiết
- - [ ] Thêm, sửa xóa.
+ - [x] Xem danh sách theo tác giả
+ - [x] Xem chi tiết
+ - [x] Thêm, sửa xóa.
 ## Các hình ảnh các tính năng
 - Đăng nhập
 ![image](https://github.com/ricky-go-tran/TechBlogApp/assets/136413699/bdbaaf98-bb89-4c13-be62-51ec81cc2fc8)
@@ -37,3 +37,9 @@ Chúng tôi phát triển phần mềm dựa trên các thư viện, ngôn ngữ
 
 - Home page chưa đăng nhập
 ![image](https://github.com/ricky-go-tran/TechBlogApp/assets/136413699/917abfcb-bcc4-49f3-9a34-57eb7955f092)
+- Danh sách theo tác giả
+![image](https://github.com/ricky-go-tran/TechBlogApp/assets/136413699/cac80a6b-66dc-487c-9939-afd47fa5fc93)
+- Danh xem chi tiết
+   ![image](https://github.com/ricky-go-tran/TechBlogApp/assets/136413699/bc73fa5a-e58c-4bbf-a81a-18035931bc6d)
+- Thêm, sửa
+![image](https://github.com/ricky-go-tran/TechBlogApp/assets/136413699/d53786fd-b2de-43da-8415-c443d7d1cff4)
