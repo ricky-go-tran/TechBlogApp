@@ -46,4 +46,17 @@
     border-radius: 10px;
 
 }
+.manager-bar > .menu > form > .logout-item {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding: 5px 40px;
+    background-color: #d25400;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.manager-bar > .menu  > .logout-form:hover {
+    border: unset;
+}
 
