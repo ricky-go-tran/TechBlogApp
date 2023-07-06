@@ -1,0 +1,49 @@
+.manager-bar {
+    width: 20%;
+    height: 100vh;
+    background: linear-gradient(0deg, #00FC85, #0CBECD);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.manager-bar > .header {
+    margin-top: 25px;
+    color: #fff;
+    padding: 15px 0 15px 10px;
+    width: 90%;
+    border-bottom: 1px solid #fff;
+    border-radius: 10px;
+}
+.manager-bar > .header > .user_name {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.manager-bar > .header > .article_num {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.manager-bar > .menu {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.manager-bar > .menu  > * {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding: 5px 25px;
+
+}
+.manager-bar > .menu  > *:hover {
+    border: 1px solid #fff;
+    border-radius: 10px;
+
+}
+

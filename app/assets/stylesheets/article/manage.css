@@ -1,0 +1,80 @@
+.content-article-manage-wrapper {
+    width: 95%;
+    height: 95%;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    width: 90%;
+}
+
+.content-article-manage-wrapper > h2 {
+    border-bottom: 1px solid #d3d3d3;
+    color: #d3d3d3;
+    width: 100%;
+}
+.content-article-manage-wrapper > .list {
+    width: 100%;
+}
+.content-article-manage-wrapper > .list > .article-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 15px 5px;
+    border-radius: 10px;
+}
+.content-article-manage-wrapper > .list > .article-item:hover {
+    background: #f0f0f0;
+
+}
+.content-article-manage-wrapper > .list > .article-item > .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.content-article-manage-wrapper > .list > .article-item > .header > :first-child {
+    color: blue;
+}
+.content-article-manage-wrapper > .list > .article-item > .header > :last-child{
+    color: #d3d3d3;
+}
+.content-article-manage-wrapper > .list > .article-item > .body  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.content-article-manage-wrapper > .list > .article-item > .body >.title-article {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-article-manage-wrapper > .list > .article-item > .body > .control-wrapper {
+    display: flex;
+}
+.content-article-manage-wrapper > .list > .article-item > .body > .control-wrapper > * > button{
+    margin-right: 10px;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.content-article-manage-wrapper > .list > .article-item > .body > .control-wrapper > form > .view-btn {
+    background: #5f00e7;
+}
+.content-article-manage-wrapper > .list > .article-item > .body > .control-wrapper > form > .edit-btn {
+    background: #009074;
+}
+.content-article-manage-wrapper > .list > .article-item > .body > .control-wrapper > form > .delete-btn {
+    background: #d25400;
+}
+
+
+

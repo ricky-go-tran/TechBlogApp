@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_action :authenticate_user!, only: [:account_manage]
+
   def author
     @authors = User.all
     @authors_article_num = {}
@@ -11,5 +13,8 @@ class UsersController < ApplicationController
   def article_by_author
     @author_name = User.find(params[:id]).fullname
     @articles = Article.where(user_id: params[:id])
+  end
+
+  def account_manage
   end
 end

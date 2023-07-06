@@ -1,11 +1,13 @@
 .content-article-new-wrapper {
-    margin-top: 90px;
     width: 95%;
-    min-height: calc(100vh - 90px - 50px);
-    padding: 10px;
+    height: 95%;
     background: #ffffff;
-    border-radius: 25px;
-    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
 }
 .content-article-new-wrapper > h2 {
     border-bottom: 1px solid #c1c1c1;
