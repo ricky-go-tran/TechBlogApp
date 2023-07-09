@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require global.css
+ *= require actiontext.css
  *= require_tree ./user
  *= require_tree ./article
  *= require_self
