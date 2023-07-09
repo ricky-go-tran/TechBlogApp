@@ -2,7 +2,7 @@ class ArticlesController < ApplicationController
   before_action :authenticate_user!, only: %i[edit update new destory manage create]
 
   def index
-    @articles = Article.all
+    @pagy, @articles = pagy(Article.all, items: 4)
   end
 
   def show

@@ -10,8 +10,7 @@ body {
   min-height: 100vh;
   background-color: #ededed;
   position: absolute;
-  display: flex;
-  justify-content: center;
+
 }
 .wrapper-frame {
   width: 100vw;
@@ -36,4 +35,24 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #a9a9a9;
+}
+.wrapper > nav {
+  margin-top: 15px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wrapper > nav > * {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.wrapper > nav > * > a {
+  color: blueviolet;
+  text-decoration: none;
+}
+.wrapper > nav > .active {
+  color: #000;
+  background-color: #06e1a5;
 }
