@@ -22,6 +22,9 @@ Chúng tôi phát triển phần mềm dựa trên các thư viện, ngôn ngữ
  - [x] Xem danh sách theo tác giả
  - [x] Xem chi tiết
  - [x] Thêm, sửa xóa.
+ - [x] Account manager
+ - [x] Pagination
+ - [x] Richtext 
 ## Các hình ảnh các tính năng
 - Đăng nhập
 ![image](https://github.com/ricky-go-tran/TechBlogApp/assets/136413699/bdbaaf98-bb89-4c13-be62-51ec81cc2fc8)
