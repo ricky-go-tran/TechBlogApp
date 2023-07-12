@@ -1,0 +1,35 @@
+.content-account-setting {
+flex:1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.content-account-setting > .content-wrapper {
+width: 95%;
+height: 95%;
+background: #ffffff;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.content-account-setting > .content-wrapper  > * {
+transform: translateY(-50px);
+margin: 10px 0;
+}
+.content-account-setting > .content-wrapper > .image-manager {
+background: url(<%= asset_path 'manager.jpg' %>);
+width: 250px;
+height: 250px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.content-account-setting > .content-wrapper > .label-title {
+font-size: 32px;
+font-weight: bold;
+}
+.content-account-setting > .content-wrapper > .label-welcome {
+font-size: 24px
+}

@@ -1,0 +1,8 @@
+= simple_form_for article do |form|
+    = form.input :title
+    .content_wrapper
+        label Body
+        div
+            = form.rich_text_area :body
+    = form.input :publish, label: "Want you pushlish this article? If true need check"
+    = form.button :submit

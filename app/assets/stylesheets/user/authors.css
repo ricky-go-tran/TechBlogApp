@@ -1,0 +1,41 @@
+.content-author-wrapper {
+    margin-top: 90px;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.content-author-wrapper > h2 {
+    border-bottom: 1px solid #d3d3d3;
+    color: #d3d3d3;
+}
+.content-author-wrapper > .list > .author-item {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 15px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+.content-author-wrapper > .list > .author-item:hover {
+    background-color: #f0f0f0;
+}
+.content-author-wrapper > .list > .author-item > .left > .author-name {
+    color: #0a6ada;
+    font-size: 32px;
+    font-weight: bold;
+}
+.content-author-wrapper > .list > .author-item > .left > .number-article {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.content-author-wrapper > .list > .author-item > .right > .join-time {
+    font-style: italic;
+    color: #c0c0c0;
+}
+

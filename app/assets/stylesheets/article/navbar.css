@@ -1,117 +1,115 @@
 .navbar-wrapper {
-    width: 100vw;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 5px 20px -10px gray;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    overflow: hidden;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 20px -10px gray;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
 }
 .navbar-wrapper > .left-navbar {
-    display: flex;
-    margin-left: 20px;
-    flex: 70%;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  margin-left: 20px;
+  flex: 70%;
+  align-items: center;
+  justify-content: flex-start;
 }
 .navbar-wrapper > .right-navbar {
-    display: flex;
+  display: flex;
 
-    flex: 30%;
-    align-items: center;
-    justify-content: flex-start;
-    transform: translateX(20%);
+  flex: 30%;
+  align-items: center;
+  justify-content: flex-start;
+  transform: translateX(20%);
 }
 .navbar-wrapper > .right-navbar > * {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .navbar-wrapper > .left-navbar > .logo {
-    font-size: 32px;
-    margin: 0 10px;
-    background: linear-gradient(90deg, #00FC85, #0CBECD);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: bold;
-    flex: 1;
+  font-size: 32px;
+  margin: 0 10px;
+  background: linear-gradient(90deg, #00fc85, #0cbecd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  flex: 1;
 }
 .navbar-wrapper > .left-navbar > .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex:2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex: 2;
 }
-.navbar-wrapper > .left-navbar > .menu > .item{
-    padding: 5px 15px;
-    border-radius: 10px;
-    color: black;
-    text-decoration: none;
+.navbar-wrapper > .left-navbar > .menu > .item {
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
 }
 .navbar-wrapper > .left-navbar > .menu > .item.active {
-    background:  linear-gradient(90deg, #00FC85, #0CBECD);
-    color: #ffffff;
+  background: linear-gradient(90deg, #00fc85, #0cbecd);
+  color: #ffffff;
 }
 .navbar-wrapper > .left-navbar > .menu > .item:hover {
-    background:  linear-gradient(90deg, #00FC85, #0CBECD);
-    color: #ffffff;
-
+  background: linear-gradient(90deg, #00fc85, #0cbecd);
+  color: #ffffff;
 }
 .navbar-wrapper > .left-navbar > .search-bar {
-    flex: 2;
-    height: 30px;
-    background-color: #e5e5e5;
-    border: none;
-    border-radius: 5px;
-    padding-left: 10px;
-    font-size: 16px;
+  flex: 2;
+  height: 30px;
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 16px;
 }
 .navbar-wrapper > .left-navbar > .search-bar {
-    outline: none;
+  outline: none;
 }
 .navbar-wrapper > .right-navbar > .login {
-    color: black;
-    text-decoration: none;
-    padding: 5px 15px;
-    border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 10px;
 }
 .navbar-wrapper > .right-navbar > .login:hover {
-    background:  linear-gradient(90deg, #00FC85, #0CBECD);
-    color: #ffffff;
-
+  background: linear-gradient(90deg, #00fc85, #0cbecd);
+  color: #ffffff;
 }
 .navbar-wrapper > .right-navbar > .signup {
-    color: black;
-    text-decoration: none;
-    padding: 5px 15px;
-    border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 10px;
 }
 .navbar-wrapper > .right-navbar > .signup:hover {
-    background:  linear-gradient(90deg, #00FC85, #0CBECD);
-    color: #ffffff;
-
+  background: linear-gradient(90deg, #00fc85, #0cbecd);
+  color: #ffffff;
 }
 .navbar-wrapper > .right-navbar > .username {
-    background:  linear-gradient(90deg, #00FC85, #0CBECD);
-    color: #ffffff;
-    padding: 5px 15px;
-    border-radius: 10px;
+  background: linear-gradient(90deg, #00fc85, #0cbecd);
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
 }
-.navbar-wrapper > .right-navbar > .logout {
-    color: black;
-    text-decoration: none;
-    padding: 5px 15px;
-    border-radius: 10px;
+.navbar-wrapper > .right-navbar > .logout-form > .logout {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
 }
-.navbar-wrapper > .right-navbar > .logout:hover {
-    background:  linear-gradient(90deg, #00FC85, #0CBECD);
-    color: #ffffff;
-
+.navbar-wrapper > .right-navbar > .logout-form > .logout:hover {
+  background: #e30633;
+  color: #ffffff;
 }
-
-
-
