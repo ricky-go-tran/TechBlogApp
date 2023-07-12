@@ -1,12 +1,12 @@
 class ArticlesController < ApplicationController
   before_action :authenticate_user!, only: %i[edit update new destory manage create]
+  before_action :get_article, only: [:edit, :update, :show, :destroy]
 
   def index
     @pagy, @articles = pagy(Article.all, items: 4)
   end
 
   def show
-    @article = Article.find(params[:id])
   end
 
   def new
@@ -24,11 +24,9 @@ class ArticlesController < ApplicationController
   end
 
   def edit
-    @article = Article.find(params[:id])
   end
 
   def update
-    @article = Article.find(params[:id])
     if @article.update(article_params)
       redirect_to manage_articles_path
     else
@@ -37,7 +35,6 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
-    @article = Article.find(params[:id])
     @article.destroy
     redirect_to manage_articles_path, status: :see_other
   end
@@ -51,5 +48,9 @@ class ArticlesController < ApplicationController
 
   def article_params
     params.require(:article).permit(:title, :body, :publish)
+  end
+
+  def get_article
+    @article = Article.find(params[:id])
   end
 end
