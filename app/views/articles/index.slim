@@ -1,0 +1,12 @@
+.wrapper
+    = render "layouts/navbar"
+    .content-article-wrapper
+        h2 Articles
+        .list
+            - @articles.each do |article|
+                .article-item[data-controller="navigation" data-action="click->navigation#navigate" data-navigation-target="path" data-content="/articles/#{article.id}"]
+                    .header
+                        .author = User.find(article.user_id).fullname
+                        .time = article.updated_at
+                    .title-article = article.title
+    == pagy_nav(@pagy)

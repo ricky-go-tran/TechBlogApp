@@ -12,7 +12,7 @@
                         .body
                             .title-article = article.title
                             .control-wrapper
-                                = button_to "View", article_path(article), :method => :get, class: "view-btn"
-                                = button_to "Edit", edit_article_path(article), :method => :get, class: "edit-btn"
-                                = button_to "Delete", article, :method => :delete, class: "delete-btn", data: { confirm: 'Are you sure?' }
+                                = button_to "View", article_path(article), method: :get, class: "view-btn"
+                                = button_to "Edit", edit_article_path(article), method: :get, class: "edit-btn"
+                                = button_to "Delete", article, method: :delete, class: "delete-btn", data: { confirm: 'Are you sure?' }
 
