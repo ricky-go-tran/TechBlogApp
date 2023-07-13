@@ -56,3 +56,12 @@ body {
   color: #000;
   background-color: #06e1a5;
 }
+
+.wrapper-error {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}

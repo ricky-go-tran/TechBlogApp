@@ -17,4 +17,9 @@ class UsersController < ApplicationController
 
   def account_manage
   end
+
+  def manage
+    @users = User.all
+    authorize @users
+  end
 end

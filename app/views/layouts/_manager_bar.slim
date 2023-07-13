@@ -6,4 +6,6 @@
         = link_to "New articles", new_article_path, class: "menu-item"
         = link_to "Manage articles", manage_articles_path, class: "menu-item"
         = link_to "Edit account", edit_user_registration_path, class: "menu-item"
+        - if current_user.has_role? :admin
+            = link_to "User Manage", users_manager_path, class: "menu-item"
         = button_to "Logout" , destroy_user_session_path,  :method => :delete,class: "logout-item", form_class: "logout-form"

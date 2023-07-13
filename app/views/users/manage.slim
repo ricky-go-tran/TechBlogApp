@@ -1,0 +1,14 @@
+.wrapper-frame
+    = render "layouts/manager_bar"
+    .content-account-setting
+        .content-user-manage-wrapper
+            h2 = "User Manage"
+            .list
+                - @users.each do |user|
+                    .user-item
+                        .header
+                            .number-article = "Number of Articles: " + Article.where(user_id: user.id).count().to_s
+                            .time = user.updated_at
+                        .body
+                            .user-fullname = user.fullname
+
